@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/app.css -o ./dist/css/tailwind.css --watch",
+    "prod": "cross-env NODE_ENV=production npx tailwindcss -i ./src/css/app.css -o ./dist/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
